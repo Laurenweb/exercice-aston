@@ -1,0 +1,25 @@
+#homepage {
+  background: skyblue;
+  font-family: fantasy; }
+  #homepage p {
+    color: purple; }
+    #homepage p span {
+      color: red; }
+  #homepage form input:nth-child(2n) {
+    background: brown;
+    display: block;
+    width: 100px;
+    height: 20px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #555;
+    background: skyeblue;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important; }
+  #homepage form input[type="submit"] {
+    color: blue; }
+
+/*# sourceMappingURL=style.css.map */

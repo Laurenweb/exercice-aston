@@ -1,0 +1,25 @@
+//homepage.scss
+#homepage {
+	background: $primary_color;
+	font-family: $font;
+	p {
+		color: purple;
+		span {
+			color: red;
+		}
+	}
+
+	form {
+		input {
+			&:nth-child(2n) {
+				background: brown;
+				@include form-input(100px);
+			}
+
+			&[type="submit"] {
+				@include form-submit();
+			}
+		}
+	}
+}
+
